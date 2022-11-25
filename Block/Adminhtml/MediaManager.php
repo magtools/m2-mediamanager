@@ -14,7 +14,7 @@ class MediaManager extends \Magento\Framework\View\Element\Template
         $mediaBlock = $this->getLayout()
             ->createBlock(\Magento\Backend\Block\Widget\Button::class)
             ->setType('button')
-            ->setClass('btn-chooser')
+            ->setClass('btn-mediamanager')
             ->setLabel('Manage Media')
             ->setOnClick('MediabrowserUtility.openDialog(\'' . $mediaUrl . '\')');
 

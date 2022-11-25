@@ -1,4 +1,15 @@
 <?php
 /** @var Mtools\MediaManager\Block\Adminhtml\MediaManager $block */
 ?>
-<?= /* @noEscape */ $block->getMediaButton() ?>
+<div class="media-manager-wrapper">
+    <?= /* @noEscape */ $block->getMediaButton() ?>
+
+    <script type="text/javascript">
+        require([
+            'jquery',
+            "mage/adminhtml/browser"
+        ], function($) {
+            $('.media-manager-wrapper button.btn-mediamanager').trigger('click');
+        });
+    </script>
+</div>
