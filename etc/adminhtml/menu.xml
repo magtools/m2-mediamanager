@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
 		<add id="Mtools_MediaManager::mediamanager"
-             title="Media"
+             title="Media Manager"
              translate="title"
              module="Mtools_MediaManager"
              sortOrder="100"
